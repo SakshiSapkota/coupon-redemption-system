@@ -50,7 +50,7 @@ step 5 — generate QR codes
 
 open generate_qr.py and change this line to your actual local IP address:
 
-pythonBASE_URL = "http://192.168.1.2:5000"
+pythonBASE_URL = "your ip_configuration"
 
 not sure what your IP is? run ipconfig on Windows or ifconfig on Mac/Linux and look for your local IP. then run:
 
