@@ -2,7 +2,7 @@ import sqlite3
 import qrcode
 import os
 
-BASE_URL = "http://192.168.1.2:5000"  # as a variable — if you ever deploy this online, you only change one line instead of hunting through code
+BASE_URL = "http://your-ip-configuration:5000"  # as a variable — if you ever deploy this online, you only change one line instead of hunting through code
 OUTPUT_DIR = "qr_codes"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
